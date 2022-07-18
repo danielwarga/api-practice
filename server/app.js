@@ -19,7 +19,7 @@ const menu = {
 app.get("/", (req, res) => {
     res.json({
         "name": "Chez Norbert",
-        "establishment": 2019,
+        "established": 2019,
         "status": "open",
         "hygiene-rating": 10
     })
